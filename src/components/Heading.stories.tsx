@@ -1,10 +1,10 @@
 import { Meta, StoryObj } from '@storybook/react'
-import { Text, HeadingProps } from './Heading'
+import { Heading, HeadingProps } from './Heading'
 
 
 export default {
     title: 'Components/Heading',
-    component: Text,
+    component: Heading,
     args: {
         children: 'Lorem ipsum',
         size: 'md',
